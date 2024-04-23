@@ -1,0 +1,55 @@
+Proyecto BikeSalesDash
+
+1. Empiezo con el análisis de los datos en busca que todos los tipos estén correctamente y que haya NORMALIDAD en todo el conjunto.
+2. Continúo con la preparación de los datos usando herramientas que permiten eliminar los duplicados; 
+  reemplazo datos que solo contienen iniciales como: “M” para llamarla “Married”, en la columna de genero: "F" para llamarla "Female"
+  y así con todos los datos necesarios.
+3. Añadí la columna “ Age Brakets” y usé la función SI ANIDADA para hacer referencia a diferentes rangos de edad llamados:
+  "Adolescent", "Middle Age" y "Old", esto con el fin de poder trabajar con ellos agrupados y hace referencia en las visualizaciones.
+4. Cree la pestaña Pivot_tables
+5. Acá comienzo a hacer uso de las Pivot_tables para hacer análisis y extracción de información relevante al negocio, 
+  en total fueron 4 tipos de análisis detallados a continuación:
+  .1 Ingreso promedio de una persona que compra o no una bicicleta
+  .2 Que distancia recorren al trabajo las personas que compran o no una bicicleta
+  .3 Cuantas personas de tipo "Adolescent","Middle Age" y "Old" adquieren o no una bicicleta
+  .4 Cuantas personas según su edad exacta compran o no bicicleta
+6. Para poder realizar el análisis numero 5.4 me pare en la columna "Commute Distance" y en las filas donde tenia el valor "10M +"
+  lo reemplace por el valor "More than 10 miles" solo para que pudiera trabajar de buena forma mi visualización
+  de orden tipo ASC y DESC
+7. Creé la pestaña Dashboard en donde voy a poner mis visualizaciones, dar un orden gráfico y a su vez hacer los ajustes
+  necesarios para un panel de control en optimas condiciones
+8. Por ultimo añadí algunas segmentaciones para poder hacer diferentes tipos de análisis que requiere el negocio de bicicletas.
+______________________________________________
+
+
+Proyecto Billionaires Statistics
+
+1. Limpieza de datos:
+
+-	Quitar duplicados
+-	En la columna "GENERO" reemplazo los valores de "M" por "Male" y de "F" por "Female"
+-	Agrego la columna "CURRENT DATE" y utilizo la función HOY para traer la fecha actual
+-	Agrego la columna "BIRTH DATE" y uso la función FECHA para completa el formato
+-	Agrego la columna "AGE" y uso FRAC.AÑO, ya que tengo otras dos columnas que me permiten encontrar la diferencia de fecha y como resultado la edad.
+-	Reemplazo en los encabezados las iniciales por mayusculas y los guiones bajos por espacios.
+-	En la columna "GDP COUNTRY" convertimos los valores en un formato numérico
+
+2. Análisis de datos:
+
+Entre las funciones que brinda excel, uso “estadística descriptiva” consiguiendo datos relevantes como la media, promedio, el recuento entre otros, para cada una de las columnas del conjunto de datos.
+Luego, comienzo a utilizar las Pivot_tables para hacer análisis y extracción de información significativa para el negocio, en total fueron 3 tipos de análisis detallados a continuación:
+
+a. Las 10 personas con mayor patrimonio
+b. Según el rango de edad, cuantas personas son billonarias
+c. En qué tipo de industrias están los billonarios
+
+Nota: Fácilmente notamos que la mayoría de billonarios se concentran entre los 50 y 80 años de edad.
+
+3. Visualización de datos:
+
+Creé la pestaña Dashboard en donde voy a poner mis visualizaciones, dar un orden gráfico y a su vez hacer los ajustes necesarios para una mejor comprensión del usuario,
+también añadí algunas segmentaciones para poder hacer diferentes tipos de análisis del conjunto de datos.
+
+
+
+
